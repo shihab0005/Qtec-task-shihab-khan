@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+    margin: 30px;
+}
+
+.body_container {
+
+    background-color: hsl(0, 0%, 98%);
+}
+
+.headings {
+    text-align: center;
+
+}
+
+.headings p {
+
+    color: hsl(234, 12%, 34%)
+}
+
+
+.heading1 {
+    font-weight: 200;
+    font-size: 35px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -32px;
+
+}
+
+.heading2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 8px;
+
+
+}
+
+.mian_card_container {
+    display: flex;
+
+    align-items: center;
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 10px 20px hsl(229, 6%, 66%);
+    font-weight: 400;
+
+}
+
+.team_builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0 10px 20px hsl(229, 6%, 66%);
+
+
+}
+
+.kalma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0 10px 20px hsl(229, 6%, 66%);
+
+
+}
+
+.Calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    box-shadow: 0 10px 20px hsl(229, 6%, 66%);
+
+
+}
+
+.icon {
+    margin: 0 0 0 190px;
+}
+
+/*------------------
+    Media Query 
+ -------------------*/
+
+/* Mobile Device */
+
+@media only screen and (min-width:375px) and (max-width:992px) {
+    * {
+        margin: 0;
+    }
+
+    .heading1 {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .heading2 {
+        margin: 10px;
+        font-size: 20px;
+        margin-left: -5px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .mian_card_container {
+        flex-direction: column;
+    }
+
+    .heading_details {
+        margin-bottom: 30px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .supervisor,
+    .team_builder,
+    .kalma,
+    .Calculator {
+        margin-bottom: 15px;
+    }
+
+}
